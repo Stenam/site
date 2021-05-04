@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style>
+		main {
+			min-height: 200px;
+		}
+		.row {
+			background-color: rgba(155,10,200,.3);
+			/*padding: 10px;*/
+			margin-bottom: 10px;
+			/*min-height: 200px;*/
+		}
+		[class*="col"] {
+			background-color: rgba(155,10,200,.3);
+			border: 1px solid grey;
+		}
+	</style>
+</head>
+<body>
+	<header class="container-fluid bg-info p-3">
+		<h1> Learning Bootstrap	</h1>
+	</header>
+
+	<main class="container-md border-left border-right border-warning ">
+<!-- Equal (вирівнювання елементів)------------------------------------------------------------------------ -->
+		<!-- <div class="row">
+    		<div class="col-sm-5 col-md-4"> One of three columns </div>
+    		<div class="col-sm-5 col-md-6"> One of three columns </div>
+    		<div class="col-sm-2"> One of three columns </div>
+  		</div>
+  		<div class="row">
+    		<div class="col"> 1 of 3 </div>
+    		<div class="col"> 2 of 3 </div>
+    		<div class="col"> 3 of 3 </div>
+  		</div>
+  		<div class="row">
+    		<div class="col"> col </div>
+    		<div class="col">	col</div>
+    		<div class="w-100">	</div> --------- Порожній контейнер шириною 100%
+    		<div class="col">	col</div>
+    		<div class="col">	col</div>
+  		</div> -->
+
+<!-- Horizontal alignment (поземне вирівнювання елементів)------------------------------------------------- -->
+  		<!-- <div class="row justify-content-md-center">
+    		<div class="col col-lg-2"> 1 of 3 </div>
+    		<div class="col-md-auto"> Variable width content Lorem, ipsum, dolor. Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Commodi, eum, possimus. Laborum unde doloribus accusamus non sint soluta possimus quo nisi officiis sunt, quos harum commodi sequi cumque, voluptatum voluptate.</div>
+    		<div class="col col-lg-2"> 3 of 3 </div>
+  		</div>
+  		<div class="row">
+    		<div class="col"> 1 of 3 </div>
+    		<div class="col-md-auto"> Variable width content Lorem, ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis pariatur recusandae necessitatibus aperiam provident id quo eum quam, odit facere ex. Quo cumque voluptates voluptatum, consequatur iure corporis doloremque! </dolor></div>
+    		<div class="col col-lg-2"> 3 of 3 </div>
+  		</div> -->
+
+<!-- Align items (доземне вирівнювання елементів)-------------------------------------------------------- -->
+  		<!-- <div class="row align-items-start">
+    		<div class="col"> One of three columns </div>
+    		<div class="col"> One of three columns </div>
+    		<div class="col"> One of three columns </div>
+  		</div>
+  			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    		<div class="col"> Column </div>
+    		<div class="col"> Column </div>
+    		<div class="col-md-8"> Column </div>
+    		<div class="col"> Column </div>
+  		</div> -->
+  		
+<!-- Column breaks (розріви колонок)--------------------------------------------------------------------- -->
+  		<!-- <div class="row">
+    		<div class="col-6 col-sm-4"> .col-6 .col-sm-4 </div>
+    		<div class="col-6 col-sm-4"> .col-6 .col-sm-4 </div>
+
+    		---------Force next columns to break to new line at md breakpoint and up -----------------
+    		<div class="w-100 d-none d-md-block"> </div>
+
+    		<div class="col-6 col-sm-4"> .col-6 .col-sm-4 </div>
+    		<div class="col-6 col-sm-4"> .col-6 .col-sm-4 </div>
+  		</div> -->
+
+<!-- Offset (відступ)------------------------------------------------------------------------------------ -->
+  		<!-- <div class="row">
+    		<div class="col-md-4"> .col-md-4 </div>
+    		<div class="col-md-4 offset-md-4"> .col-md-4 .offset-md-4 </div>
+  		</div>
+
+  		<div class="row">
+    		<div class="col-md-3 offset-md-3"> .col-md-3 .offset-md-3 </div>
+    		<div class="col-md-3 offset-md-3"> .col-md-3 .offset-md-3 </div>
+  		</div>
+
+  		<div class="row">
+    		<div class="col-md-6 offset-md-3"> .col-md-6 .offset-md-3 </div>
+  		</div> -->
+
+  <!-- Nesting (вкладання)------------------------------------------------------------------------------- -->
+  		<div class="row">
+    		<div class="col-sm-9"> Level 1: .col-sm-9 
+    			<div class="row">
+        			<div class="col-8 col-sm-6"> Level 2: .col-8 .col-sm-6 </div>
+        			<div class="col-4 col-sm-6"> Level 2: .col-4 .col-sm-6 </div>
+      			</div>
+    		</div>
+  		</div>
+		
+	</main>
+
+	<footer class="container-fluid bg-info">
+		footer
+	</footer>
+	
+	<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"> </script>
+	<script type="text/javascript" src="js/popper.min.js"> </script>
+	<script type="text/javascript" src="js/bootstrap.js"> </script>
+</body>
+</html>
